@@ -1,0 +1,116 @@
+body {
+    font-family: 'Jacques Francois', serif;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+    background-color: #242737;
+    padding: 0px 200px;
+}
+
+a {
+    cursor: default;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+li{
+    margin-top: 10px;
+    text-align: left;
+    list-style: none;
+    
+}
+
+
+.images {
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#h2{
+    text-shadow: 1px 1px 3px #3175BE;
+    padding-top: 130px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+
+#h3{
+    text-shadow: 1px 1px 2px #3175BE;
+    margin-top: 0px;
+    font-size: 60px;
+    font-weight: normal;
+    
+}
+
+#h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.hero{
+    width: auto;
+    height: 380px;
+    background-image: url("https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    padding: 0px 100px;
+    background-color: #8388A8;
+    font-style: italic;
+}
+
+.islands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 100px;
+    width: auto;
+    height: 450px;
+    background-color: #3D5179;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 100px;
+    width: auto;
+    height: 450px;
+    background-color: #1D2E4C;
+}
+
+
+.transport{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 30px;
+    width: auto;
+    height: 450px;
+    background-color: #1F1F29
+}
+
+.footer{
+    width: auto;;
+    height: 82px;
+    background-color: #8388A8;
+}
+
